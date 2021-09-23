@@ -1,1 +1,43 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <body>
+      <h1>Registration Form</h1>
+      <form>
+        <label for="username">Username</label>
+        <input id="username" type="text"required />
+        <label for="password">password</label>
+        <input id="password" type="password"required />
+        <label for="email">Email</label>
+        <input type="email"required />
+
+        <h2>Which texi do you require?</h2>
+        <label for="car">Car</label>
+        <input type="radio" name="car" value="car"required />
+        <label for="van">Van</label>
+        <input type="radio" name="Van"value="van"required />
+        <label for="Tuk Tuk">Tuk Tuk</label>
+        <input type="radio"name="Tuk Tuk" value="Tuk Tuk"required />
+
+        <h2>Chooes your extras</h2>
+        <input type="checkbox" name="Baby seat" value="Baby seat"required />
+        <label for="extras"> Baby seat</label>
+        <input type="checkbox" name="Wheelchair" value="Wheelchair Access"required />
+        <label for="extras"> Wheelchair Access</label>
+        <input type="checkbox" name="Privacy Windows" value="Privacy Windows"required />
+        <label for="extras"> Privacy Windows</label>
+
+        <h2>Where would you like us to pick you up?</h2>
+        <label for="Pickup">Pickup Location:</label>
+        <select name="Location">
+        <option value="Location">Select One</option>
+        <option value="Location 2">Select two</option>
+        <option value="Location 3">Select three</option>
+        </select>
+
+        <h2>Additional Instructions</h2>
+        <label for="special">Special</label>
+        <textarea rows="2" cols="25" name="special"       placeholder="provide special instructions here"></textarea>
+        <button>Submit</button>
+      </form>
+   </body>
+</html>
